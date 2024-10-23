@@ -39,7 +39,12 @@ tar -xvf figurine_linux_amd64_v1.3.0.tar.gz
 mv figurine /usr/local/bin/
 ```
 
-**Creamos el script en en update-motd.d**
+**Descargamos el script (10-figurine.sh) de este repositorio**
+```console
+wget https://github.com/ccalvop/LN-HostnameScreenPrint/blob/main/10-figurine.sh
+```
+
+**O lo creamos en update-motd.d**
 *El número "10" en el nombre del script (10-figurine) determina el orden de ejecución - los números más bajos se ejecutan primero.*
 ```console
 nano /etc/update-motd.d/10-figurine
@@ -53,7 +58,7 @@ echo ""
 echo ""
 ```
 
-**Permisos de ejecución**
+**Aplicamos permisos de ejecución**
 ```console
 chmod +x /etc/update-motd.d/10-figurine
 ```
