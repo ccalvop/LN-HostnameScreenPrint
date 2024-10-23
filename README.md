@@ -6,10 +6,10 @@
 
 Personalizar el banner de bienvenida utilizando Figurine, una herramienta que genera texto ASCII art con distintas tipografías y colores. En lugar de tener el típico mensaje de texto plano al conectarnos a nuestro servidor, crearemos un banner más visual y dinámico que mostrará el hostname del servidor con un estilo distintivo.
 
-## Pasos
-1. Instalar Figurine desde su repositorio oficial
-2. Configurar un script que se ejecutará automáticamente
-3. Personalizar el mensaje de bienvenida con texto estilizado y colorido
+## ¿Qué haremos?
+1. Instalar Figurine
+2. Configurar script que se ejecutará automáticamente
+3. Personalizar el mensaje de bienvenida
 
 ## ¿Dónde se ejecutará?
 El script puede configurarse en dos ubicaciones diferentes:
@@ -18,6 +18,10 @@ El script puede configurarse en dos ubicaciones diferentes:
 
 Programa figurine en el repositorio: 
 *https://github.com/arsham/figurine/releases*
+
+***
+
+## Pasos
 
 **Descargamos la versión correcta (en mi caso linux en amd64):**
 ```console
