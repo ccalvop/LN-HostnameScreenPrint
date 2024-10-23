@@ -1,9 +1,25 @@
 # LN-HostnameScreenPrint
 
-Para las letras usaremos el programa figurine del repositorio: 
+![image](https://github.com/user-attachments/assets/318d424c-29c9-41aa-8d68-e4c4ef290666)
+
+# Personalización del Banner de Bienvenida en Linux
+
+Personalizar el banner de bienvenida utilizando Figurine, una herramienta que genera texto ASCII art con distintas tipografías y colores. En lugar de tener el típico mensaje de texto plano al conectarnos a nuestro servidor, crearemos un banner más visual y dinámico que mostrará el hostname del servidor con un estilo distintivo.
+
+## Pasos
+1. Instalar Figurine desde su repositorio oficial
+2. Configurar un script que se ejecutará automáticamente
+3. Personalizar el mensaje de bienvenida con texto estilizado y colorido
+
+## ¿Dónde se ejecutará?
+El script puede configurarse en dos ubicaciones diferentes:
+- `/etc/update-motd.d/`: Se mostrará como parte del banner inicial, antes del mensaje de "Last login"
+- `/etc/profile.d/`: Se mostrará después del mensaje de "Last login"
+
+Programa figurine en el repositorio: 
 *https://github.com/arsham/figurine/releases*
 
-**Descargar (linux en amd64):**
+**Descargamos la versión correcta (en mi caso linux en amd64):**
 ```console
 wget https://github.com/arsham/figurine/releases/download/v1.3.0/figurine_linux_amd64_v1.3.0.tar.gz
 ```
