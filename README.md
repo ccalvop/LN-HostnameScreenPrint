@@ -45,6 +45,7 @@ wget https://github.com/ccalvop/LN-HostnameScreenPrint/blob/main/10-figurine.sh
 ```
 
 **O lo creamos en update-motd.d**
+
 *El número "10" en el nombre del script (10-figurine) determina el orden de ejecución - los números más bajos se ejecutan primero.*
 ```console
 nano /etc/update-motd.d/10-figurine
