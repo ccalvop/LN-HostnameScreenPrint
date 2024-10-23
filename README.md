@@ -59,7 +59,9 @@ chmod +x /etc/update-motd.d/10-figurine
 ```
 
 **Notas:**
+
 /etc/update-motd.d/: Forma parte del banner de bienvenida inicial
+
 /etc/profile.d/: Se ejecuta cuando ya estás en la sesión
 
 Secuencia de conexión:
